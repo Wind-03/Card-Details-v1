@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Space+Grotesk:wght@500&display=swap');
+body, ::placeholder{
+    font-weight: 500;
+    font-family: 'Space Grotesk', sans-serif;
+}
+body{
+    background-image:url("./images/bg-main-desktop.png");
+    background-repeat: no-repeat;
+    background-size: 30% auto;
+}
+.cards{
+    position:absolute;
+}
+.card-number-display{
+    font-size: 2em;
+    text-align:center;
+    margin-bottom: 0;
+    font-weight:400;
+}
+.date-display{
+    display:flex;
+    align-items: baseline;
+    text-align: right;
+    padding-left:0.95em;
+    font-weight:400;
+}
+.expiry-display{
+    margin-bottom:0;
+    padding-bottom:0;
+    font-weight:400;
+}
+.card-holder-display{
+    font-weight:400;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+.flex-one{
+    display:flex;
+    justify-content: space-between;
+    padding-left:0.95em;
+    margin:0 1.2em 0 0.68em;
+    padding-top:0;
+}
+#card-one{
+    background-image: url("./images/bg-card-front.png");
+    background-repeat: no-repeat;
+    background-size:auto;
+    height:12.5em;
+    width:25em;
+    position:relative;
+    top:3em;
+    left:30%;
+    padding:25px;
+    color: #fff;
+}
+.card-logo{
+   padding-left:0.95em;
+   margin-bottom:2em;
+}
+.card-back{
+    background-image: url("./images/bg-card-back.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:12.5em;
+    width:25em;
+    position:relative;
+    top:5em;
+    left:45%;
+    padding:23px;
+}
+.cvc-display{
+    margin:5.5em 0 0 21.6em;
+    color: #fff;
+}
+.completed{
+    display:none;
+}
+.card-form{
+    position:relative;
+    left:45em;
+    top:10em;
+    width:370px;
+}
+#month-el, #year-el{
+    width:23%;
+    padding:8.5px 10px;
+    margin-right:3px;
+    border-radius:7px;
+}
+input{
+    width:80%;
+    padding:8.5px 10px;
+    border-radius: 7px;
+    border:0.3px solid lightgray ;
+}
+.attribution{
+    position:fixed;
+    bottom:0;
+    right:40%;
+}
+.card-holder-name,.cardholder-number{
+    margin:7px 0 7px 0; 
+}
+.cvc{
+    padding-left:2px;
+    margin-left:-60px;
+}
+#hidden-el{
+    width:100%;
+}
+.expiry-details{
+    width:80%;
+    padding-top:10px;
+    display:flex;
+    justify-items: baseline;
+}
+label{
+    color:hsl(278, 68%, 11%);
+    font-size:13px;
+    font-weight:600;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+.confirm{
+    width:85%;
+    margin-top:20px;
+    padding:10px 10px;
+    border-radius: 7px;
+    background-color:hsl(278, 68%, 11%);
+    color:white;
+    border:none;
+}
+.card-form{
+    margin-left:4.5em;
+}
